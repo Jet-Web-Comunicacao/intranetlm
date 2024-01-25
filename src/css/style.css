@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.topo {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: url(../img/background-topo.png) repeat-x;
+  padding-top: 50px;
+}
+
+.topo .logo {
+  width: 296px;
+  height: 111px;
+  background: url(../img/logo.png) no-repeat;
+  background-size: contain;
+  margin: 0 80px 0 100px;
+}
+
+.topo .nav-menu{
+  padding: 20px;
+}
+
+.topo .nav-menu .menu {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.topo .nav-menu .menu .nav {
+  padding: 20px;
+  list-style: none;
+}
+
+.topo .nav-menu .menu .nav a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-weight: 400;
+  line-height: 0;
+
+}
+
+.topo .nav-menu .menu .nav a:hover{
+  color: #ff0000;
+}
+/* COMEÇO DA ESTILIZAÇÃO DO MAIN-EVENTOS */
+
+main.itens {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 4em 0 0;
+  padding-left: 200px;
+
+}
+
+main.itens article.iten {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+main.itens article.iten div.img-galery-1{
+  width: 200px;
+  height: 140px;
+  background: url(../img/accouting-1.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #ffcc29;
+  margin: 0 auto;
+}
+
+main.itens article.iten div.img-galery-2{
+  width: 200px;
+  height: 140px;
+  background: url(../img/accouting-2.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #ffcc29;
+  margin: 0 auto;
+}
+
+main.itens article.iten h3 {
+  margin: 0;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main.itens article.iten h3 span {
+  margin-top: 5px;
+  text-align: center;
+  padding:0 10px;
+}
+
+main.itens article.iten h3 span i {
+  font-size: 30px;
+  color: brown;
+}
+
+main.itens article.iten img {
+  padding: 15px 0;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+main.itens article.iten span.check-box {
+  background-color: rgb(22, 187, 0);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+main.itens article.iten span.check-box i {
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 15px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  border: 2px solid #108800;
+
+}
+
+main.itens article.iten p {
+
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+main.itens article.iten-3 span.post-it {
+  background: url(../img/post-it.png) no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+main.itens article.iten-3 img{
+  margin: 0 auto;
+}
+
+main.itens article.iten-3 span.post-it h3 {
+  padding-top: 55px;
+  padding-right: 10px;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  transform: rotate(-3deg);
+}
+
+main.itens article.iten-3 span.post-it p {
+  padding-top: 10px;
+  width: 190px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  transform: rotate(-3deg);
+}
+/* FINAL ESTILIZAÇÃO DOS ARTICLE */
+
+
+/* ESTILIZAÇÃO DO MENU LATERAL ASIDE */
+
+aside.nav-left {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  top: 80px;
+  color: rgb(212, 120, 0);
+  min-height: auto;
+}
+
+aside.nav-left ul {
+  margin: 0 auto;
+  width: 50%;
+  border-left: 2px solid rgb(199, 199, 199);
+  margin-top: 180px;
+}
+
+aside.nav-left ul hr {
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+aside.nav-left ul li {
+  text-align: left;
+  padding: 10px 0;
+  list-style: none;
+  padding-left: 20px;
+  width: auto;
+}
+
+aside.nav-left ul li a {
+  text-decoration: none;
+  font-weight: 200;
+  color: rgb(0, 46, 87);
+  width: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+
+}
+
+aside.nav-left ul li a:hover{
+  color: #ffcc29;
+  font-style: oblique;
+
+}
+
+
+@media (max-width: 781px) {
+  main.itens {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .topo {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+  }
+
+  .topo .logo{
+    margin-top: 60px;
+    width: 300px;
+  }
+
+  main.itens article.iten {
+    margin-top: 50px;  
+    width: 300px;
+}
+
+  main.itens .iten img {
+    margin: 0 auto;
+  }
+
+  aside.nav-left {
+    position: static;
+    min-height: auto;
+    width: auto;
+    background: black;
+    background-size: cover;
+    margin: 0 auto;
+
+  }
+
+
+  aside.nav-left ul,
+  aside.nav-left ul li {
+    flex-direction: row;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  /* .topo .nav-menu .menu{
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  } */
+
+  .topo .nav-menu .menu {
+    flex-direction: column;
+    padding: 1px;
+    text-align: center;
+    margin-top: 0;
+}
+  .topo .nav-menu .menu img{
+    display: none;
+  }
+
+  main.itens article.iten {
+    margin-top: 50px;  
+}
+}
